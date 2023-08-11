@@ -548,6 +548,13 @@ a.specials_links:empty {
 	border-radius: 150px 150px var(--radius) var(--radius);
 }
 
+/* PREVIEW SIGNATURE */
+.signature form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 /*** ------------------------------- ***/
 /*** EDITION DE PROFIL ------------- ***/
 
