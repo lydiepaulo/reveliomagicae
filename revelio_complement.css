@@ -386,9 +386,9 @@ abs {
 }
 
 .sep::after {
-	content: '────────── ☽ ● ☾ ──────────';
+	content: '━━━━ ☽⊙☾ ━━━━';
 	text-align: center;
-	color: white;
+	color: var(--contrast);
 }
 
 .separator,
@@ -680,6 +680,121 @@ div#tabs li:nth-child(5) {
 .systab.s_float .tabs,
 .systab.s_float .contents {
 	float: left;
+}
+
+/*** ------------------------------- ***/
+/*** PAGE PROFILS -------------- ***/
+.user_profile .profile_field {
+	display: flex;
+	gap: 5px;
+}
+
+.user_profile .profile_field label {
+	min-width: 100px;
+	margin-top: 3px;
+}
+
+.user_grid {
+	display: grid;
+	grid-template-columns: 1fr 200px 1fr;
+	gap: 20px;
+}
+
+#user_infos {
+	height: 218px;
+	margin: 10px 0 12px;
+}
+
+.user_contacts {
+	gap: 5px;
+	justify-content: space-around;
+}
+
+.user_contacts #field_id:nth-of-type(2) {
+	display: none;
+}
+
+#user_infos > div {
+	background: var(--neutralDark);
+	border-radius: 5px;
+	padding: 0 5px;
+}
+
+.user_grid .bg-large {
+	width: 100%;
+}
+
+#user_aes > div {
+	background: var(--neutral);
+	border-radius: 5px;
+	min-height: 133px;
+}
+
+#user_aes label {
+	display: none;
+}
+
+#user_aes field {
+	width: -webkit-fill-available;
+}
+
+#user_aes > div {
+	background: var(--neutral);
+	border-radius: 5px;
+	min-height: 133px;
+	overflow: auto;
+	height: 133px;
+	padding: 8px 15px;
+}
+
+#user_aes field {
+	margin: 5px 0;
+}
+
+#user_img {
+	height: 72px;
+}
+
+#user_img label {
+	display: none;
+}
+
+#user_img field {
+	width: 100%;
+	height: 100%;
+}
+
+.user_profile .tabs-onglets a {
+	width: 100%;
+}
+
+.user_name h1 {
+	text-align: left;
+}
+
+.user_name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 25px;
+}
+
+#profil1 > div,
+#profil2 > div {
+	padding: 2px 6px;
+}
+
+#profil1 label,
+#profil2 label {
+	display: none;
+}
+
+.ajax-profil_parent {
+	position: relative;
+}
+
+.ajax-profil_edit {
+	left: -7px !important;
 }
 
 /*** ------------------------------- ***/
@@ -988,6 +1103,7 @@ a.groups.syriacus:hover::before {
 	font-weight: 600;
 	background: var(--co-gradient);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
@@ -1350,6 +1466,7 @@ div.sceditor-dropdown .button:hover {
 	height: 100%;
 	background: var(--co-gradient) !important;
 	-webkit-background-clip: text !important;
+    background-clip: text !important;
 	-webkit-text-fill-color: transparent;
 	font-size: 0;
 }
