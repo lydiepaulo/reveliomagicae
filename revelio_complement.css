@@ -251,6 +251,60 @@ circle {
 }
 
 /*** ------------------------------- ***/
+/*** JAUGES DUELS -------------- ***/
+
+.duel_progress {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	width: 250px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+.duel_progress > * {
+	grid-row: 1;
+	grid-column: 1;
+}
+.duel_progress label {
+	font-size: var(--small-size);
+	font-weight: 600;
+}
+.duel {
+	width: 250px;
+	border: 1px solid var(--neutralDark);
+	border-radius: 5px;
+}
+meter::-webkit-meter-optimum-value {
+	background: var(--co-1);
+}
+meter::-moz-meter-bar {
+	background: var(--co-1);
+}
+meter::-webkit-meter-suboptimum-value {
+	background: var(--co-2);
+}
+meter::-webkit-meter-even-less-good-value {
+	background: var(--hel);
+}
+progress[value] {
+	display: block;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 250px;
+	height: 20px;
+	margin: 0 auto;
+}
+progress[value]::-webkit-progress-bar {
+	background: var(--neutral);
+	border-radius: 5px;
+}
+progress[value]::-webkit-progress-value {
+	background: var(--co-gradient);
+	border-radius: 5px;
+}
+
+/*** ------------------------------- ***/
 /*** INFOBULLES -------------- ***/
 
 /* Tooltip container */
