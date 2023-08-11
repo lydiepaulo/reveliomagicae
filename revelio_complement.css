@@ -190,7 +190,7 @@
 	right: -30px;
 }
 .prez .flex div {
-	width: 100%;
+	width: -webkit-fill-available;
 }
 .prez-av {
 	width: 220px;
