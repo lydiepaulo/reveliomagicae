@@ -1,5 +1,67 @@
 /*** ------------------------------- ***/
+/*** BOUTIQUE -------------- ***/
+
+.items_grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+.items_grid > br {
+	display: none;
+}
+.item {
+	padding: 10px;
+	background: var(--neutral);
+	border: 1px solid var(--neutralDark);
+	border-radius: var(--radius);
+	border: 1px solid var(--neutralDark);
+	transition: 0.5s all ease;
+}
+.item:hover {
+	background: var(--neutralDarker);
+}
+.item .desc {
+	height: 60px;
+}
+.item .flex {
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: center;
+}
+.item p {
+	margin: 0;
+	font-weight: 600;
+}
+.add,
+.remove {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	border-radius: 50%;
+	border: none;
+	background: var(--co-gradient);
+	color: white;
+	cursor: pointer;
+}
+.quantity {
+	margin: 0 10px;
+}
+#total {
+	text-align: right;
+	font-size: var(--medium-size);
+	color: var(--contrast);
+}
+#code {
+	width: 300px;
+	height: 100px;
+}
+
+/*** ------------------------------- ***/
 /*** FIFCHES DE PRÉSENTATION -------------- ***/
+
 .prez {
 	max-width: 735px;
 	margin: 0 auto;
