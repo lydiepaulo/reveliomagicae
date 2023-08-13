@@ -455,7 +455,6 @@ abs {
 
 .tabs-onglets {
 	display: flex;
-	flex-wrap: wrap;
 }
 
 .postbody .tabs-onglets {
