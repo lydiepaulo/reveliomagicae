@@ -1115,6 +1115,37 @@ div#tabs li:nth-child(5) {
 }
 
 /*** ------------------------------- ***/
+/*** CODES POUR CHAMPS PAGES PROFILS -------------- ***/
+
+.pr_evol1 tr {
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.pr_evol1 tr::before {
+    content: "";
+    z-index: 1;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--co-gradient);
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.pr_evol1 tr::after {
+    content: "";
+    width: 1px;
+    height: calc(100% + 17px);
+    justify-self: center;
+    background: var(--co-gradient);
+    grid-row: 1;
+    grid-column: 1;
+}
+
+/*** ------------------------------- ***/
 /*** LISTE DES MEMBRES -------------- ***/
 .userlist_avatarr img {
 	width: 100px;
