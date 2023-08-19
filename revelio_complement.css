@@ -395,14 +395,14 @@
 	height: 352px;
 	border-radius: 5px;
 }
-#fate .block.inter .block {
+#fate > .block.inter > .block {
     max-height: 475px;
     overflow: hidden;
 }
-#fate .desc {
+#fate > .block.inter > .block > .desc {
     transition: height .5s;
 }
-#fate .desc:hover {
+#fate > .block.inter > .block > .desc:hover {
     height: 395px !important;
 }
 
