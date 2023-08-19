@@ -438,7 +438,7 @@ circle {
 	background-color: #7fc082;
 }
 .imgm_ctnt {
-	background: linear-gradient(to bottom, var(--neutral), var(--gray));
+	background: linear-gradient(to bottom, var(--neutral), var(--neutral));
 }
 .imgm_profile {
 	padding: 40px;
