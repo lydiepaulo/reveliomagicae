@@ -2114,8 +2114,7 @@ div.award {
 	top: 27px;
 	left: 60px;
 	transform: translateY(-50%);
-	background-color: #fefefe;
-	color: var(--awards_color);
+	background-color: var(--neutralDark);
 	text-align: center;
 	padding: 8px;
 	border-radius: 6px;
@@ -2147,7 +2146,7 @@ div.award {
 	margin-top: -10px;
 	border-width: 7px;
 	border-style: solid;
-	border-color: transparent var(--awards_color) transparent transparent;
+	border-color: transparent var(--neutralDark) transparent transparent;
 }
 
 .notif_award {
