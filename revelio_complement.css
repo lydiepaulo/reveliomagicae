@@ -499,7 +499,7 @@ circle {
 .imgm_post {
 	padding: 40px;
 }
-.imgm_post img {
+.imgm_img {
 	width: 420px;
 	border: 10px solid var(--neutral);
 }
