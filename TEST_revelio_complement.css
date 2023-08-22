@@ -1339,6 +1339,8 @@ div#tabs li:nth-child(5) {
 
 .queel_img {
 	background: var(--qeel-icon);
+	background-size: cover;
+    	background-position: center;
 	overflow: hidden;
 	padding: 30px;
 }
