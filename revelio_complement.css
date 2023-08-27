@@ -387,7 +387,7 @@
 	top: 30%;
 	right: -30px;
 }
-.prez .flex div {
+.prez .flex>div {
 	width: -webkit-fill-available;
 }
 .prez-av {
