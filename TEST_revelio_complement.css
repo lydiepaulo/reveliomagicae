@@ -676,10 +676,6 @@ abs {
 	z-index: 1;
 }
 
-.tabs-onglets > a:not(a.selected) {
-	opacity: 0.6;
-}
-
 /* Contenu général qui sert généralement de fond et/ou de contour*/
 .container {
 	background: var(--neutral);
