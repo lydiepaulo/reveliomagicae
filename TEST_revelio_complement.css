@@ -36,11 +36,11 @@
     width: 100%;
     height: 330px;
     position: absolute;
-    background: url('https://www.zakstudio.com/wp-content/uploads/2014/02/gif-anime-vague-mer.gif');
+    background: url(https://64.media.tumblr.com/ae3831d82849497f1b056d3a85ff052f/b139d882cca6e571-c9/s540x810/692f50396b1811c4dfa0a4099644fc505cc6a517.gif);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     filter: grayscale(1);
-    opacity: .3;
 }
 
 .pa-arch::after {
@@ -177,7 +177,7 @@
     border-radius: 5px;
     padding: 10px;
     text-align: justify;
-    border: 1px solid var(--neutral);
+    border: 1px solid var(--neutralDarker);
     font-size: var(--little-size);
     line-height: var(--little-size);
     margin: 10px 0 20px;
@@ -387,7 +387,7 @@
 	top: 30%;
 	right: -30px;
 }
-.prez .flex div {
+.prez .flex>div {
 	width: -webkit-fill-available;
 }
 .prez-av {
@@ -1157,6 +1157,60 @@ div#tabs li:nth-child(5) {
 }
 
 /*** ------------------------------- ***/
+/*** AES POUR PAGE PROFIL -------------- ***/
+
+/*profiles*/
+.pr_1 tbody tr {
+	display: grid;
+	grid-template: 1fr / 1fr;
+	justify-items: center;
+	align-items: center;
+}
+.pr_1 td {
+	grid-row: 1;
+	grid-column: 1;
+}
+.pr_1 td:first-child img {
+	width: 52px;
+	filter: grayscale(1);
+}
+.pr_1 td:last-child img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	z-index: 1;
+	border: 3px solid var(--white);
+	position: relative;
+}
+
+.pr_2 tr {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+}
+.pr_2 tr > * {
+	flex-shrink: 0;
+}
+.pr_2 tr::before,
+.pr_2 tr::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+}
+.pr_2 tr::before {
+	background: linear-gradient(to right, transparent, var(--co-2), var(--co-1));
+}
+.pr_2 tr::after {
+	background: linear-gradient(to right, var(--co-1), var(--co-2), transparent);
+}
+
+#profil1 field {
+	width: 100%;
+}
+
+/*** ------------------------------- ***/
 /*** LISTE DES MEMBRES -------------- ***/
 .userlist_avatarr img {
 	width: 100px;
@@ -1339,8 +1393,6 @@ div#tabs li:nth-child(5) {
 
 .queel_img {
 	background: var(--qeel-icon);
-	background-size: cover;
-    	background-position: center;
 	overflow: hidden;
 	padding: 30px;
 }
@@ -2242,4 +2294,9 @@ div.award {
 
 .notif_award_text {
 	padding-left: 40px;
+}
+
+/* LANCER DE DÉ — apparence du + */
+#dice_to_del a::before {
+	content:"+";
 }
