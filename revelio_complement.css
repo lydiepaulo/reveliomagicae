@@ -421,6 +421,7 @@
 	gap: 10px;
 	padding: 15px;
 	border-bottom: 1px solid var(--neutralDark);
+	background: var(--neutralDark);
 }
 circle {
 	display: block;
@@ -436,9 +437,6 @@ circle {
 }
 .imgm_circles circle:last-child {
 	background-color: #7fc082;
-}
-.imgm_ctnt {
-	background: linear-gradient(to bottom, var(--neutral), var(--neutral));
 }
 .imgm_profile {
 	padding: 40px;
