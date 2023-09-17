@@ -421,6 +421,7 @@
 	gap: 10px;
 	padding: 15px;
 	border-bottom: 1px solid var(--neutralDark);
+	background: var(--neutralDark);
 }
 circle {
 	display: block;
@@ -436,9 +437,6 @@ circle {
 }
 .imgm_circles circle:last-child {
 	background-color: #7fc082;
-}
-.imgm_ctnt {
-	background: linear-gradient(to bottom, var(--neutral), var(--neutral));
 }
 .imgm_profile {
 	padding: 40px;
@@ -1548,6 +1546,45 @@ button {
 	letter-spacing: 1px;
 	border-radius: var(--radius);
 }
+
+.fa_like_others{
+	position:relative;
+	display:inline-block;
+	cursor:pointer;
+	border:none;
+	background:none;
+	outline:none;
+	color:#;
+	font-weight:600;
+	font-size:inherit;
+}
+
+.fa_like_others:hover,
+.fa_like_others:focus {
+	color:#
+}
+
+.fa_like_others .fa_like_tooltip {
+	background:var(--co-gradient);
+	border-radius:3px;
+	color:#FFF;
+	display:none;
+	font-size:11px;
+	font-style:normal;
+	left:50%;
+	line-height:1.5;
+	padding:6px 15px;
+	position:absolute;
+	bottom:125%;
+	min-width:80px;
+	text-align:left;
+	transform:translateX(-50%);
+	white-space:nowrap;
+	visibility:hidden
+}
+
+.fa_like_others:focus .fa_like_tooltip,.fa_like_others:hover .fa_like_tooltip{display:block;visibility:visible}
+.fa_like_others a{color:#fff !important}
 
 /* Envoyer, prévisualiser, sauvegarder, aller,... */
 input[type='submit'],
