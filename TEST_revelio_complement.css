@@ -1395,7 +1395,8 @@ div#tabs li:nth-child(5) {
 
 .queel_img > div {
 	border-radius: 5px;
-	background: var(--neutralDark);
+	background: var(--neutral);
+	backdrop-filter: blur(60px);
 }
 
 .queel_img .desc {
