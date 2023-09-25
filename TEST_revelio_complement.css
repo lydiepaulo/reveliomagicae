@@ -1204,6 +1204,12 @@ div#tabs li:nth-child(5) {
 	width: 100%;
 }
 
+.pr_3 img {
+    	border-radius: 50%;
+    	border: 1px solid var(--co-2);
+   	padding: 2px;
+}
+
 /*** ------------------------------- ***/
 /*** LISTE DES MEMBRES -------------- ***/
 .userlist_avatarr img {
