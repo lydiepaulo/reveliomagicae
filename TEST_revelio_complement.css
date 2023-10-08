@@ -1338,7 +1338,7 @@ div#tabs li:nth-child(5) {
 	text-align: center;
 	font-family: var(--font-3);
 	color: var(--contrast);
-	text-transform: lowercase;
+	text-transform: uppercase;
 }
 
 #total_users strong:first-of-type {
@@ -1401,7 +1401,7 @@ div#tabs li:nth-child(5) {
 
 .queel_img > div {
 	border-radius: 5px;
-	background: var(--neutral);
+	background: var(--neutralDark);
 	backdrop-filter: blur(60px);
 }
 
