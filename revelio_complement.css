@@ -1338,7 +1338,7 @@ div#tabs li:nth-child(5) {
 	text-align: center;
 	font-family: var(--font-3);
 	color: var(--contrast);
-	text-transform: lowercase;
+	text-transform: uppercase;
 }
 
 #total_users strong:first-of-type {
@@ -1402,6 +1402,7 @@ div#tabs li:nth-child(5) {
 .queel_img > div {
 	border-radius: 5px;
 	background: var(--neutralDark);
+	backdrop-filter: blur(60px);
 }
 
 .queel_img .desc {
@@ -1748,7 +1749,8 @@ div#quickreply_content .h3 + br {
 /* Barre d'outils de l'éditeur de texte*/
 div.sceditor-toolbar {
 	background: transparent !important;
-	border-bottom: none !important;
+	padding: 7px 0 !important;
+	border-bottom: 1px solid var(--base-1) !important;
 }
 
 /* Conteneur des groupes d'outils */
@@ -1820,14 +1822,6 @@ div.sceditor-dropdown {
 
 .sceditor-container {
 	background: var(--base-6) !important;
-}
-
-div.sceditor-toolbar {
-	padding: 5px 10px 10px !important;
-	background: var(--base-3) !important;
-	padding: 7px 0 !important;
-	border-radius: var(--radius) var(--radius) 0 0 !important;
-	border-bottom: 1px solid var(--base-1) !important;
 }
 
 /* compteur de mots */
