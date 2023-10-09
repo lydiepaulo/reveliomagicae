@@ -1338,6 +1338,7 @@ div#tabs li:nth-child(5) {
 	font-family: var(--font-3);
 	color: var(--contrast);
 	text-transform: uppercase;
+	font-size: var(--medium-size);
 }
 
 #total_users strong:first-of-type {
