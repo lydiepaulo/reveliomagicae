@@ -63,7 +63,6 @@
 .pa-arch span:nth-child(2) {
     font-family: var(--font-3);
     font-size: var(--title-size);
-    text-transform: lowercase;
 }
 
 .pa-grid bg3 {padding: 0}
@@ -1339,6 +1338,7 @@ div#tabs li:nth-child(5) {
 	font-family: var(--font-3);
 	color: var(--contrast);
 	text-transform: uppercase;
+	font-size: var(--medium-size);
 }
 
 #total_users strong:first-of-type {
@@ -1624,7 +1624,7 @@ input[type='reset']:hover {
 
 /* MENUS DEROULANTS --- */
 select {
-	background: transparent;
+	background: var(--neutral);
 	border: 1px solid var(--white);
 	border-radius: var(--radius);
 	font-size: var(--normal-size);
