@@ -1261,9 +1261,8 @@ div#tabs li:nth-child(5) {
 
 .userlist_pseudo {
 	border-radius: 5px 5px 0px 0px;
-	font-family: 'sunroll_boldregular';
-	text-transform: lowercase;
-	font-weight: bolder;
+	font-family: var(--font-3);
+	text-transform: uppercase;
 }
 
 /*** ------------------------------- ***/
