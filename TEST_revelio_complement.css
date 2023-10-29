@@ -1686,10 +1686,14 @@ option {
 /* Autre champs de texte */
 textarea {
 	background: var(--neutralDark);
-	border: var(--border);
+	border: none !important;
 	color: var(--textColor) !important;
 	width: auto;
 	width: 100%;
+}
+
+textarea:focus {
+    outline: 1px solid var(--co-1);
 }
 
 /*** ------------------------------- ***/
