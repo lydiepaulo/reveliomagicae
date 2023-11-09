@@ -18,11 +18,11 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
+	width: 30px;
 }
 
 .panel_bn_global {
 	padding: 10px 10px 5px;
-	width: 350px;
 	transform-origin: bottom center;
 	transform: scaleY(0%);
 	opacity: 0;
@@ -31,6 +31,7 @@
 
 .notepad { 
 	background-color: var(--neutralDarker); 
+	width: 350px;
 	height: 250px;
 	overflow: auto;
 	padding: 5px;
