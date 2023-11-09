@@ -1,5 +1,52 @@
 /*** ------------------------------- ***/
-/*** PAGE D'ACCUEIL -------------- ***/
+/*** BLOC NOTE -------------- ***/
+
+#show_bn {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	width: 35px;
+	height: 35px;
+	font-size: var(--medium-size);
+}
+
+.blocnote {
+	position: fixed;
+	z-index: 1;
+	right: 10px;
+	bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.panel_bn_global {
+	padding: 10px 10px 5px;
+	width: 350px;
+	transform-origin: bottom center;
+	transform: scaleY(0%);
+	opacity: 0;
+	transition: all .1s;
+}
+
+.notepad { 
+	background-color: var(--neutralDarker); 
+	height: 250px;
+	overflow: auto;
+	padding: 5px;
+}
+
+.bnHide {
+	transform: scaleY(100%);
+	opacity: 1;
+}
+
+@media screen and (max-width: 980px) {
+	#show_bn {display: none}
+}
+
+/*** ------------------------------- ***/
+/*** INDEX & PAGE D'ACCUEIL -------------- ***/
 
 .pa-grid {
     width: 100%;
@@ -1639,10 +1686,14 @@ option {
 /* Autre champs de texte */
 textarea {
 	background: var(--neutralDark);
-	border: var(--border);
+	border: none !important;
 	color: var(--textColor) !important;
 	width: auto;
 	width: 100%;
+}
+
+textarea:focus {
+    outline: 1px solid var(--co-1);
 }
 
 /*** ------------------------------- ***/
