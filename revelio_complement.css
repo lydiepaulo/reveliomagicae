@@ -661,22 +661,22 @@ progress[value]::-webkit-progress-value {
 /*** ELEMENTS ESTHETIQUES ---------- ***/
 abs,
 .abs {
-	color: var(--abs);
+	color: var(--abs) !important;
 }
 
 anc,
 .anc {
-	color: var(--anc);
+	color: var(--anc) !important;
 }
 
 hel,
 .hel {
-	color: var(--hel);
+	color: var(--hel) !important;
 }
 
 syr,
 .syr {
-	color: var(--syr);
+	color: var(--syr) !important;
 }
 
 abs,
