@@ -22,7 +22,7 @@
 }
 
 .panel_bn_global {
-	padding: 10px 10px 5px;
+	padding: 10px 36px 5px;
 	transform-origin: bottom center;
 	transform: scaleY(0%);
 	opacity: 0;
