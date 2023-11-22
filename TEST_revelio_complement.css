@@ -2385,3 +2385,227 @@ div.award {
 #dice_to_del a::before {
 	content:"+";
 }
+
+/****** ------------------------------------------------------------------------------
+****** MEMBRES ------------------------------------------------------ ******/
+
+/*** ------------------------------- ***/
+/*** PAGE DE PROFIL ---------------- ***/
+.profile_avatar img {
+width: 200px;
+border-radius: var(--radius);
+}
+
+.profile_infos {}
+
+.profile_contact form {
+display: flex;
+}
+
+.profile_contact form > div {
+margin-left: 5px;
+}
+
+/* Suppression des cases vides de contact qui affichent " - " 
+* nth-child(n+4) supprime toutes les cases après la quatrième */
+.profile_contact form div:nth-child(n+4) {
+display: none
+}
+
+.profile_content {
+height: 70%;
+overflow: auto;
+}
+
+.profile_field:not(:last-child) {margin-bottom: 10px}
+.profile_field > * {display: inline-block}
+
+.profile_field label,
+.profile_field label > span {
+font-weight: 600;
+font-size: var(--small-size);
+color: var(--co-2) !important;
+}
+
+.profile_field field {
+position: relative;
+}
+
+.profile_admin {
+text-align: center;
+margin: 10px 0 0;
+}
+
+/* Bouton édition d'un champ de profil */
+.ajax-profil_edit {
+cursor: pointer;
+position: absolute;
+top: 0;
+left: 0px;
+}
+
+/* Bouton édition d'un champ de profil */
+.ajax-profil_edit {
+cursor: pointer;
+position: absolute;
+top: 0;
+left: -15px;
+}
+
+/* Bouton validation des modifications */
+.ajax-profil_valid {
+cursor: pointer;
+margin-left: 4px;
+vertical-align: middle;
+}
+
+/*** ------------------------------- ***/
+/*** PROFILS SIMPLIFIÉS DES TAGS ---- ***/
+
+/* Supression de la flèche peu esthétique*/
+.tooltipster-arrow {}
+
+.tooltipster-default {
+    min-width: 300px;
+    max-width: 400px;
+    background: var(--neutralDark)!important;
+    border: 1px solid var(--neutralDarker)!important;
+    pointer-events: auto;
+    transition-duration: 350ms;
+    animation-duration: 350ms;
+    top: 980px;
+    left: 216px;
+}
+
+.preview_avatar img {
+object-fit: cover;
+object-position: center;
+width: 80px;
+height: 80px;
+border-radius: 5px;
+margin-right: 10px;
+border: 1px solid var(--neutralDark);
+}
+
+.preview_infos {
+width: 100%;
+padding-top: 3px
+}
+
+.preview_pseudo,
+.preview_pseudo strong {
+font-size: var(--medium-size);
+}
+
+.preview_contacts {
+position: absolute;
+bottom: 8px;
+right: 10px;
+}
+
+.preview_contacts a {
+margin-left: 5px
+}
+
+.tooltipster-arrow {
+display: none
+}
+
+/*** LISTE DES MEMBRES ------------- ***/
+.userlist {
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap: 20px;
+}
+
+.userlist_profil {
+display: grid;
+grid-template-columns: 95px auto;
+grid-gap: 10px;
+padding: 10px;
+background: var(--neutral);
+border-radius: 5px;
+}
+
+.userlist_avatar {}
+
+.userlist_avatar img {
+width: 75px;
+height: 120px;
+object-fit: cover;
+object-position: center;
+}
+
+.userlist_details {}
+
+.userlist_pseudo {
+font-size: var(--medium-size);
+}
+
+/****** ------------------------------------------------------------------------------ 
+****** MESSAGES PRIVES -------------------------------------------------------------- ******/
+
+/*** ------------------------------- ***/
+/*** LISTE DES MPs ----------------- ***/
+
+/* Menu des MPS */
+#privmsgs-menu {
+display: flex;
+justify-content: center;
+gap: 20px;
+margin: 20px auto;
+}
+
+#privmsgs-menu li {
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+/* Affichage d'un MP dans la liste */
+.mp_row {
+background: var(--neutral);
+border-radius: 5px;
+display: grid;
+grid-template-columns: 55px auto;
+grid-gap: 10px;
+align-items: center;
+margin-bottom: 10px;
+padding: 10px;
+}
+
+/*** ------------------------------- ***/
+/*** AFFICHAGE D'UN MESSAGE PRIVÉ -- ***/
+
+.message {
+background: var(--neutral);
+border-radius: 5px;
+display: grid;
+grid-template-rows: max-content auto;
+grid-template-columns: 220px auto;
+}
+
+.message_infos {
+grid-column: 1 / span 2;
+border-bottom: 1px solid var(--neutralDark);
+padding: 10px;
+display: flex;
+justify-content: space-between;
+}
+
+.mp-icons {
+display: flex;
+float: right;
+}
+
+.message_profil {
+padding: 10px;
+border-right: 1px solid var(--neutralDark);
+text-align: center;
+}
+
+.message_profil img {width: 200px}
+
+.message_content {
+padding: 25px;
+}
