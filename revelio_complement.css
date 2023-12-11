@@ -2463,12 +2463,12 @@ vertical-align: middle;
 /*** PROFILS SIMPLIFIÉS DES TAGS ---- ***/
 
 /* Supression de la flèche peu esthétique*/
-.tooltipster-arrow {}
+.tooltipster-arrow {display: none}
 
 .tooltipster-default {
     min-width: 300px;
     max-width: 400px;
-    background: var(--neutralDark)!important;
+    background: var(--neutralDarker)!important;
     border: 1px solid var(--neutralDarker)!important;
     pointer-events: auto;
     transition-duration: 350ms;
