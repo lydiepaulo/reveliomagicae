@@ -2463,7 +2463,9 @@ vertical-align: middle;
 /*** PROFILS SIMPLIFIÉS DES TAGS ---- ***/
 
 /* Supression de la flèche peu esthétique*/
-.tooltipster-arrow {display: none}
+.tooltipster-arrow {
+	display: none !important;
+}
 
 .tooltipster-default {
     min-width: 300px;
