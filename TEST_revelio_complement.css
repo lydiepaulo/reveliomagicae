@@ -1261,12 +1261,14 @@ div#tabs li:nth-child(5) {
 }
 
 #profil1 > div,
-#profil2 > div {
+#profil2 > div,
+#inventaire > div {
 	padding: 2px 6px;
 }
 
 #profil1 label,
-#profil2 label {
+#profil2 label,
+#inventaire > label {
 	display: none;
 }
 
