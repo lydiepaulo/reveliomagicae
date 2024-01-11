@@ -610,7 +610,6 @@ ytmax {
 	position: relative;
 	overflow: hidden;
 	line-height: 13px;
-	font-size: var(--s-size);
 }
 ytmax a {
 	color: var(--blanc) !important;
@@ -1262,12 +1261,14 @@ div#tabs li:nth-child(5) {
 }
 
 #profil1 > div,
-#profil2 > div {
+#profil2 > div,
+#inventaire > div {
 	padding: 2px 6px;
 }
 
 #profil1 label,
-#profil2 label {
+#profil2 label,
+#inventaire label {
 	display: none;
 }
 
@@ -1277,6 +1278,14 @@ div#tabs li:nth-child(5) {
 
 .ajax-profil_edit {
 	left: -7px !important;
+}
+
+div#bulletin label {
+    display: none;
+}
+div#bulletin {
+    display: flex;
+    justify-content: center;
 }
 
 /*** ------------------------------- ***/
@@ -2322,6 +2331,7 @@ div.sceditor-dropdown .button:hover {
 }
 .save-bloc div {
 	cursor: pointer;
+	color: var(--textColor);
 }
 .save-bloc select {
 	background: var(--neutralDark);
@@ -2330,9 +2340,10 @@ div.sceditor-dropdown .button:hover {
 #saves span {
 	background: var(--co-gradient);
 	text-transform: uppercase;
-	font-size: var(--s-size);
+	font-size: var(--small-size);
 	font-weight: 600;
 	padding: 2px 5px;
+	border-radius: 5px;
 	color: white;
 }
 
