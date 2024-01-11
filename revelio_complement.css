@@ -604,6 +604,13 @@ ytmin ytm {
 	margin-bottom: 3px;
 	position: relative;
 }
+
+.ytlink {
+	display: block;
+	width: 170px;
+	height: 115px;
+}
+
 ytmax {
 	display: block;
 	width: 100%;
