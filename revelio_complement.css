@@ -1295,6 +1295,20 @@ div#bulletin {
     justify-content: center;
 }
 
+.bulletin { display: flex; }
+.bulletin>* { width: 100%; }
+.bulletin .bg-large { width: 20px; height: 228px; writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); }
+#bulletin { display: flex; justify-content: center; }
+.bulletin .profile_field { width: 100%; padding-left: 10px; }
+.bulletin field {width: 100%}
+#bulletin field>.field_uneditable:not(#bulletin field>.field_uneditable.invisible) { display: flex; justify-content: stretch; flex-direction: column; align-items: center; width: 100%; }
+#bulletin field>.field_uneditable > div {width:-webkit-fill-available}
+.pp_feather { display: flex; justify-content: center; align-items: center; width: 60px !important; height: 60px; outline-offset: 3px; outline: 1px solid var(--base-2); background: var(--base-2); border-radius: 50%; }
+.bulletin_pro { margin-bottom: 5px; font-family: var(--font-3); text-align: center; color: var(--co-2); font-size: var(--large-size); }
+.bulletin_note { font-size: var(--little-size) !important; letter-spacing: 0px; }
+.bulletin_note .grid-two { display: flex; flex-direction: column; gap: 0; line-height: 21px; width: -webkit-fill-available; height: 123px; }
+#bulletin h3, #bulletin h4 { background: var(--neutralDark); color: var(--contrast); letter-spacing: 0; }
+
 /*** ------------------------------- ***/
 /*** CODES POUR CHAMPS PAGES PROFILS -------------- ***/
 
