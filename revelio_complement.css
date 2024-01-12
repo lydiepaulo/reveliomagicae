@@ -1302,7 +1302,7 @@ div#bulletin {
 .bulletin .profile_field { width: 100%; padding-left: 10px; }
 .bulletin field {width: 100%}
 #bulletin field>.field_uneditable:not(#bulletin field>.field_uneditable.invisible) { display: flex; justify-content: stretch; flex-direction: column; align-items: center; width: 100%; }
-#bulletin field>.field_uneditable > div {width:-webkit-fill-available}
+#bulletin field>.field_uneditable > div {width:max-content}
 .pp_feather { display: flex; justify-content: center; align-items: center; width: 60px !important; height: 60px; outline-offset: 3px; outline: 1px solid var(--base-2); background: var(--base-2); border-radius: 50%; }
 .bulletin_pro { margin-bottom: 5px; font-family: var(--font-3); text-align: center; color: var(--co-2); font-size: var(--large-size); }
 .bulletin_note { font-size: var(--little-size) !important; letter-spacing: 0px; }
