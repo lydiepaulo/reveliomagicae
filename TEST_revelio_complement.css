@@ -319,6 +319,7 @@
 }
 .prez t1,
 .prez t2 {
+	padding: 8px;
 	font-size: var(--xxl-size);
 }
 #head > .flex {
@@ -1337,7 +1338,7 @@ div#bulletin {
     grid-column: 1;
 }
 
-.pr_evol1 tr::after {
+.pr_evol1 tr:not(.pr_evol1 tr:last-of-type)::after {
     content: "";
     width: 1px;
     height: calc(100% + 17px);
