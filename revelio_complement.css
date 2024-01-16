@@ -1326,7 +1326,7 @@ div#bulletin {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: var(--co-gradient);
+    background: radial-gradient(var(--co-1), var(--co-2));
     grid-row: 1;
     grid-column: 1;
 }
