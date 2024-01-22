@@ -1484,6 +1484,10 @@ h1.qeel_title {
     animation: gradient 6s ease infinite;
 }
 
+h1.qeel_title>div {
+    line-height: 17px;
+}
+
 h1.qeel_title i {
     font-family: var(--font-2);
     font-style: normal;
