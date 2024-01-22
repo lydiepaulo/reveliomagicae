@@ -2792,10 +2792,7 @@ padding: 25px;
     width: 40px;
 }
   
-#c1 .fo-stats span b,
-#c3 .fo-stats span b,
-#c4 .fo-stats span b,
-#c7 .fo-stats span b {
+.fo-stats span b {
     color: white;
     font-size: var(--small-size);
 }
