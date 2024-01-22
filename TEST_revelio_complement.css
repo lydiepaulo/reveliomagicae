@@ -2895,21 +2895,20 @@ padding: 25px;
     overflow: auto;
 }
   
-  #c1 .forum_lastpost,
-  #c3 .forum_lastpost,
-  #c4 .forum_lastpost,
-  #c7 .forum_lastpost {
+#c1 .forum_lastpost,
+#c3 .forum_lastpost,
+#c4 .forum_lastpost,
+#c7 .forum_lastpost {
     position: absolute;
     white-space: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    top: 133px;
-    max-width: none;
-    width: calc(100% - 40px);
-    height: 20px;
+    top: 160px;
+    right: 20px;
+    max-width: 130px;
+    width: 100%;
+    height: 64px;
     padding: 0 5px;
     border-radius: 5px;
-    background: var(--neutral);
+    border: 1px solid var(--neutral);
 }
   
   #c1 a.lastpost_link:not(:empty),
@@ -2918,13 +2917,12 @@ padding: 25px;
   #c7 a.lastpost_link:not(:empty) {
     width: 130px;
   }
-  
-  #c1 .forum_dateauthor,
-  #c3 .forum_dateauthor,
-  #c4 .forum_dateauthor,
-  #c7 .forum_dateauthor {
-    display: flex;
-    gap: 10px;
+
+#c1 .forum_row,
+#c3 .forum_row,
+#c4 .forum_row,
+#c7 .forum_row {
+    grid-template-rows: 37px 95px 65px;
 }
   
   #c1 .forum_row.row,
@@ -2948,10 +2946,10 @@ padding: 25px;
   
   .compo-img {
     position: relative;
-    width: 64px;
-    height: 64px;
+    width: 85px;
+    height: 85px;
     float: right;
-    border-radius: 5px;
+    border-radius: 50%;
     margin-left: 10px;
 }
   
@@ -2962,17 +2960,17 @@ padding: 25px;
     left: 0;
     background: var(--paillettes);
     background-size: cover;
-    width: 64px;
-    height: 64px;
-    border-radius: 5px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
     z-index: 1;
     mix-blend-mode: plus-lighter;
-  }
+}
   
   .compo-img img {
-    width: 64px;
-    height: 64px;
-    border-radius: 5px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
     border: 1px solid var(--neutralDark);
 }
   
@@ -2990,10 +2988,32 @@ padding: 25px;
     width: 100%;
     height: 85px;
 }
-  
-#c1 .fo-links::before,
-  #c3 .fo-links::before,
-  #c4 .fo-links::before,
-  #c7 .fo-links::before {
-    width: 100%;
+
+.cate_links {
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    right: 215px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 64px;
+    overflow: auto;
+}
+
+.cate_links a {
+    margin-right: 10px;
+    padding: 1px 5px;
+    background: var(--neutral);
+    border-radius: 5px;
+    font-size: var(--small-size);
+    text-transform: uppercase;
+}
+
+.cate_links a::before {
+    content: "\eca0";
+    font-family: var(--font-ic);
+    font-size: var(--small-size);
+    margin-right: 3px;
+    color: var(--co-2);
 }
