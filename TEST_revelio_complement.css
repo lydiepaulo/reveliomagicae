@@ -1658,6 +1658,10 @@ h1.qeel_title i {
     background: var(--neutral);
 }
 
+[data-color-scheme="dark"] .queel_img > div {
+    background: var(--neutralDark);
+}
+
 .queel_img .desc {
     height: 94px;
     line-height: 150%;
