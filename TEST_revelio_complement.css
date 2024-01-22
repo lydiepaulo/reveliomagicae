@@ -1484,6 +1484,15 @@ h1.qeel_title {
     animation: gradient 6s ease infinite;
 }
 
+h1.qeel_title i {
+    font-family: var(--font-2);
+    font-style: normal;
+    text-transform: none;
+    font-size: var(--xl-size);
+    line-height: var(--xl-size);
+    font-weight: 600;
+}
+
 .queel {
     display: grid;
     grid-template-columns: 1fr 300px 1fr;
@@ -1556,6 +1565,15 @@ h1.qeel_title {
 	color: var(--contrast);
 	text-transform: uppercase;
 	font-size: var(--medium-size);
+}
+
+#total_users {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+    font-size: var(--normal-size);
+    color: var(--co-1);
 }
 
 #total_users strong:first-of-type {
