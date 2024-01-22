@@ -2832,12 +2832,67 @@ padding: 25px;
     gap: 20px;
 }
 
+#c1 .forum_lastpost-avatar,
+#c3 .forum_lastpost-avatar,
+#c4 .forum_lastpost-avatar,
+#c7 .forum_lastpost-avatar {
+    position: absolute;
+    top: 160px;
+    right: 160px;
+}
+
+#c1 .desc,
+#c3 .desc,
+#c4 .desc,
+#c7 .desc {
+    max-height: 85px !important;
+}
+
+#c1 .fo-links,
+#c3 .fo-links,
+#c4 .fo-links,
+#c7 .fo-links {
+    display: none;
+}
+
+#c1 .fo-stats,
+#c3 .fo-stats,
+#c4 .fo-stats,
+#c7 .fo-stats {
+    flex-direction: row;
+    gap: 5px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: var(--co-gradient);
+    border-radius: 20px;
+    padding: 2px 5px;
+}
+
+
 #c1 .fo-stats span,
 #c3 .fo-stats span,
 #c4 .fo-stats span,
 #c7 .fo-stats span {
-    font-size: 0;
-    width: 40px;
+    width: auto;
+    height: auto;
+    background: none;
+}
+
+#c1 #subforum,
+#c3 #subforum,
+#c4 #subforum,
+#c7 #subforum {
+    position: absolute;
+    top: 160px;
+    right: 215px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-right: 5px;
+    max-height: 64px;
+    overflow: auto;
 }
   
   #c1 .forum_lastpost,
