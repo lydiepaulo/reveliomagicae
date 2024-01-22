@@ -2837,7 +2837,7 @@ padding: 25px;
 #c4 .forum_lastpost-avatar,
 #c7 .forum_lastpost-avatar {
     position: absolute;
-    top: 160px;
+    top: 155px;
     right: 160px;
 }
 
@@ -2878,22 +2878,6 @@ padding: 25px;
     height: auto;
     background: none;
 }
-
-#c1 #subforum,
-#c3 #subforum,
-#c4 #subforum,
-#c7 #subforum {
-    position: absolute;
-    top: 160px;
-    right: 215px;
-    left: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding-right: 5px;
-    max-height: 64px;
-    overflow: auto;
-}
   
 #c1 .forum_lastpost,
 #c3 .forum_lastpost,
@@ -2901,7 +2885,7 @@ padding: 25px;
 #c7 .forum_lastpost {
     position: absolute;
     white-space: nowrap;
-    top: 160px;
+    top: 155px;
     right: 20px;
     max-width: 130px;
     width: 100%;
@@ -2991,7 +2975,7 @@ padding: 25px;
 
 .cate_links {
     position: absolute;
-    top: 160px;
+    top: 155px;
     left: 20px;
     right: 215px;
     display: flex;
