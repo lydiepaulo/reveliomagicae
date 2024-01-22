@@ -2773,3 +2773,132 @@ text-align: center;
 .message_content {
 padding: 25px;
 }
+
+/*CATÉGORIES*/
+  #c1 .forums,
+  #c3 .forums,
+  #c4 .forums,
+  #c7 .forums {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#c1 .fo-stats span,
+#c3 .fo-stats span,
+#c4 .fo-stats span,
+#c7 .fo-stats span {
+    font-size: 0;
+    width: 40px;
+}
+  
+#c1 .fo-stats span b,
+#c3 .fo-stats span b,
+#c4 .fo-stats span b,
+#c7 .fo-stats span b {
+    color: white;
+    font-size: var(--small-size);
+}
+  
+  #c1 .forum_lastpost,
+  #c3 .forum_lastpost,
+  #c4 .forum_lastpost,
+  #c7 .forum_lastpost {
+    position: absolute;
+    white-space: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 133px;
+    max-width: none;
+    width: calc(100% - 40px);
+    height: 20px;
+    padding: 0 5px;
+    border-radius: 5px;
+    background: var(--neutral);
+}
+  
+  #c1 a.lastpost_link:not(:empty),
+  #c3 a.lastpost_link:not(:empty),
+  #c4 a.lastpost_link:not(:empty),
+  #c7 a.lastpost_link:not(:empty) {
+    width: 130px;
+  }
+  
+  #c1 .forum_dateauthor,
+  #c3 .forum_dateauthor,
+  #c4 .forum_dateauthor,
+  #c7 .forum_dateauthor {
+    display: flex;
+    gap: 10px;
+}
+  
+  #c1 .forum_row.row,
+  #c3 .forum_row.row,
+  #c4 .forum_row.row,
+  #c7 .forum_row.row {
+    overflow: visible;
+}
+  
+  #c1 .forum_decoimg,
+  #c3 .forum_decoimg,
+  #c4 .forum_decoimg,
+  #c7 .forum_decoimg {display: none}
+  
+  #c1 .forumtitle::after,
+  #c3 .forumtitle::after,
+  #c4 .forumtitle::after,
+  #c7 .forumtitle::after {
+    width: 100%;
+  }
+  
+  .compo-img {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    float: right;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+  
+  .compo-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--paillettes);
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+    z-index: 1;
+    mix-blend-mode: plus-lighter;
+  }
+  
+  .compo-img img {
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid var(--neutralDark);
+}
+  
+  #c1 .forum_desc,
+  #c3 .forum_desc,
+  #c4 .forum_desc,
+  #c7 .forum_desc {
+    width: 100%;
+}
+  
+#c1 .fo-ctnt,
+  #c3 .fo-ctnt,
+  #c4 .fo-ctnt,
+  #c7 .fo-ctnt {
+    width: 100%;
+    height: 80px;
+}
+  
+#c1 .fo-links::before,
+  #c3 .fo-links::before,
+  #c4 .fo-links::before,
+  #c7 .fo-links::before {
+    width: 100%;
+}
