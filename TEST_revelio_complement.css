@@ -2792,11 +2792,6 @@ padding: 25px;
     width: 40px;
 }
   
-.fo-stats span b {
-    color: white;
-    font-size: var(--small-size);
-}
-  
   #c1 .forum_lastpost,
   #c3 .forum_lastpost,
   #c4 .forum_lastpost,
