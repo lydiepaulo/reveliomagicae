@@ -1581,6 +1581,10 @@ h1.qeel_title i {
     color: var(--co-1);
 }
 
+#total_users br {
+    display: none;
+}
+
 #total_users strong:first-of-type {
 	display: none;
 }
