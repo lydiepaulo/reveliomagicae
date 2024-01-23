@@ -3068,7 +3068,7 @@ padding: 25px;
     transform: scaleY(0);
     transform-origin: top;
     opacity: 0;
-    transition: all .3s;
+    transition: opacity .3s;
 }
 
 .navig:hover .navig_ctn {
