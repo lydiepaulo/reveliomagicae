@@ -3058,7 +3058,6 @@ padding: 25px;
 .navig_ctn {
     position: absolute;
     top: 36px;
-    right: 8px;
     display: flex;
     flex-direction: column;
     gap: 16px;
