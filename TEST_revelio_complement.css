@@ -3009,3 +3009,69 @@ padding: 25px;
     margin-right: 3px;
     color: var(--co-2);
 }
+
+/* BARRE DE MENU SIDEBAR */
+.navig {
+    display: grid;
+    align-items: center;
+    position: relative;
+    transition: .3s all;
+}
+
+.navig_button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 3px;
+    width: 26px;
+    height: 25px;
+    margin: 0 20px;
+    border: 1px solid var(--co-3);
+    border-radius: 50%;
+}
+
+.navig_button span {
+    display: block;
+    width: 14px;
+    height: 1px;
+    background: var(--contrast);
+}
+
+.navig:hover .navig_button span:nth-child(1) {
+    transform: rotate(45deg) translateY(0);
+    transition: top .3s cubic-bezier(0.21, 0.83, 0.26, 0.87),transform .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) .3s;
+}
+
+.navig:hover .navig_button span:nth-child(2) {
+    display: none;
+}
+
+.navig:hover .navig_button span:nth-child(3) {
+    margin-top: -4px;
+    transform: rotate(-45deg) translateY(0);
+    transition: bottom .3s cubic-bezier(0.21, 0.83, 0.26, 0.87),transform .3s cubic-bezier(0.21, 0.83, 0.26, 0.87) .3s;
+}
+
+.navig_ctn {
+    position: absolute;
+    top: 35px;
+    right: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: var(--neutralDark);
+    border-radius: var(--radius);
+    padding: 10px;
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.navig:hover .navig_ctn {
+    opacity: 1;
+    transform: scaleY(1);
+}
