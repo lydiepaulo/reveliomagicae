@@ -3063,6 +3063,7 @@ padding: 25px;
     background: var(--neutralDark);
     border-radius: var(--radius);
     padding: 10px;
+    transform: scale(0);
     opacity: 0;
     transition: opacity .3s;
 }
