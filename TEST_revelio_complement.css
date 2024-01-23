@@ -3028,7 +3028,7 @@ padding: 25px;
     gap: 3px;
     width: 26px;
     height: 25px;
-    margin: 0 20px;
+    margin: 5px 20px;
     border: 1px solid var(--co-3);
     border-radius: 50%;
 }
@@ -3057,7 +3057,7 @@ padding: 25px;
 
 .navig_ctn {
     position: absolute;
-    top: 35px;
+    top: 36px;
     right: 8px;
     display: flex;
     flex-direction: column;
