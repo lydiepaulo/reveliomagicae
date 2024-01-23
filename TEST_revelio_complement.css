@@ -237,7 +237,7 @@
 
 .pa-meteo b4 {color: white}
 
-.pa-meteo span::before {
+.pa-meteo > span::before {
     content: "";
     display: block;
     width: 30px;
