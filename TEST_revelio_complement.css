@@ -1512,11 +1512,10 @@ h1.qeel_title i {
     padding: 10px;
 }
 
-.queel_stats t2b {
+.queel_stats t2 {
     display: flex;
     justify-content: center;
     gap: 4px;
-    text-align: center;
     color: var(--co-1);
 }
 
