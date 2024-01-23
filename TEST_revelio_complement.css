@@ -232,7 +232,6 @@
     background: var(--neutral);
     backdrop-filter: blur(20px);
     font-size: var(--little-size);
-    line-height: var(--little-size);
     margin: 10px 0 20px;
 }
 
