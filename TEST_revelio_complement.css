@@ -813,6 +813,9 @@ abs {
 	font-weight: 600;
 }
 
+/*arbre à mots ancolie*/
+.parchment { color: #454545;}
+
 .left-side,
 .right-side {
 	width: 140px;
