@@ -3075,3 +3075,38 @@ padding: 25px;
     opacity: 1;
     transform: scaleY(1);
 }
+
+/*SMS MINIFIED*/
+.bubble #wrapper {width:550px; margin: 0 auto; background: var(--neutral); padding: 20px; border-radius: var(--radius); border: 2px solid var(--neutral) } .bubble #wrapper::before { content: ''; display: block; margin: -20px auto 5px; width: 150px; height: 20px; background: var(--neutral); border-radius: 0 0 30px 30px }
+.bubble .poster-list { margin: 20px 0 0; background: var(--neutralDark); border-radius: var(--radius) var(--radius) 0 0 } 
+.bubble .h1-ctnr { background: none; border: none; padding: 0; }
+.bubble .h1-ctnr>div {background: none;padding-bottom: 0;}
+.bubble .post_profile, .bubble .sign_sep, .bubble .signature_div, .bubble .has_prev .sms_name { display: none }
+.bubble .post-ctnr {max-height:650px; background: var(--neutral); padding: 20px 20px 30px; border:1px solid var(--neutral);border-radius: 0 0 5px 5px} .bubble .block { background: none; padding: 20px 0 0 0; margin-bottom: 0 !important } .bubble .post_row { display: block }
+.bubble .sms_post>.post_details { display: none } .bubble .profile-icons {position: absolute; right: 13px; top: -10px;transform: scale(0.8);transform-origin: right;flex-grow:0;margin:0 0 0 auto;opacity:0;transition:opacity .5s} .bubble .post_message:hover .profile-icons, .bubble .post_message:hover .like_button {opacity:1} 
+.bubble .post-ctnr>.post:nth-child(even) .sms_post>.flex { flex-direction: row-reverse } .bubble .post-ctnr>.post:nth-child(even) .post_message {border-radius: var(--radius) var(--radius) 0 var(--radius)!important}
+.bubble .post-ctnr>.post:nth-child(even) .like_list p {margin: 7px 0 0 auto!important}
+.sms_avatar, .sms_name { display: none } .bubble .has_prev .sms_name, .bubble .has_prev .sms_avatar {visibility:hidden;height:0} 
+.bubble .sms_avatar, .bubble .sms_name { display: block } .bubble .sms_avatar { grid-column: 1 } .bubble .sms_avatar img { width: 60px; height: 60px; object-fit: cover; border-radius: 50% } 
+.bubble .sms_post_message { position: relative; max-width: 305px; width: max-content }
+.bubble .post_message::before, .bubble .post_message::after { content: none }
+.bubble .post_message { margin: 0 0 3px 0; padding: 0; border-radius: var(--radius) var(--radius) var(--radius) 0 } .bubble .post_message::before { content: "" }
+.bubble .sms_namedetails {display: flex;justify-content:space-between;align-items:center;width: 100%; margin-bottom: -5px; padding: 3px;border-radius: var(--radius) var(--radius) 0 0; font-size: var(--small-size); text-transform: uppercase; letter-spacing: 1px }
+.bubble .sms_name {background: var(--neutralDark); padding: 3px 11px; border-radius: 15px 15px 0 0; width: 100%}
+.bubble .sms_name a { font-size: var(--small-size); font-family: var(--font); text-transform: uppercase; font-weight: 600; }
+.bubble .post_message:has(jr) {margin-top: 20px}
+.bubble .post_message>div:last-child {padding:10px}
+.bubble .like_button { background: none; padding: 0; right: -11px; bottom: -14px;opacity:0;transition:opacity .5s }
+.bubble .post-ctnr>.post:nth-child(even) .like_button {right: auto; left: 3px !important}
+.bubble .like_list p { margin: 7px 70px 0 0; max-width: 225px }
+.bubble jr {position: absolute; top: -20px; left: 0; margin: 0 auto; display: flex; gap: 20px; align-items: center; width: 300px; text-align: center}
+.bubble .post-ctnr>.post:nth-child(even) jr { left: auto; right: 0; }
+.bubble jr::before, .bubble jr::after { content: ''; display: block; width: inherit; height: 1px; background: var(--neutralDarker); }
+jr {font-weight: 600; font-size: var(--small-size); text-transform: uppercase}
+jr>* { flex-shrink: 0; }
+
+.bubble blockquote:has(cite) { border: none !important; padding: 5px !important; margin: 13px 0 5px 0px; background: var(--neutralDark); border-radius: 5px; font-family: var(--font) !important; font-size: var(--little-size); opacity: .7; }
+.bubble blockquote:has(cite) cite::before { content: "\e9d7\000020 reply to"; width: 79px; background: none; font-family: var(--font-ic); font-size: var(--small-size); left: -4px; top: 20px; letter-spacing: 2px; text-transform: uppercase; }
+.bubble cite { font-size: 0; }
+.bubble blockquote:has(cite) cite::after { content: "reply to"; font-size: var(--small-size); }
+.bubble blockquote div {padding-left: 0 !important}
