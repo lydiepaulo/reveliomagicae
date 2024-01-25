@@ -3108,5 +3108,4 @@ jr>* { flex-shrink: 0; }
 .bubble blockquote:has(cite) { border: none !important; padding: 5px !important; margin: 13px 0 5px 0px; background: var(--neutralDark); border-radius: 5px; font-family: var(--font) !important; font-size: var(--little-size); opacity: .7; }
 .bubble blockquote:has(cite) cite::before { content: "\e9d7\000020 reply to"; width: 79px; background: none; font-family: var(--font-ic); font-size: var(--small-size); left: -4px; top: 20px; letter-spacing: 2px; text-transform: uppercase; }
 .bubble cite { font-size: 0; }
-.bubble blockquote:has(cite) cite::after { content: "reply to"; font-size: var(--small-size); }
 .bubble blockquote div {padding-left: 0 !important}
