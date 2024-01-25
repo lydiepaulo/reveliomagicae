@@ -557,6 +557,9 @@ circle {
 .imgm_post circle {
 	background-color: var(--co-2);
 }
+.imgm_resume {
+    padding-right: 40px;
+}
 .verified::after {
 	content: '\e9d9';
 	display: inline-flex;
