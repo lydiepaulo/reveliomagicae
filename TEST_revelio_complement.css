@@ -3015,6 +3015,19 @@ padding: 25px;
     color: var(--co-2);
 }
 
+/* DESCRIPTION DANS LES FO ET SOUS-FORUMS */
+#page-desc {
+    margin-bottom: 20px !important;
+}
+
+.page-desc-content .desc {
+    max-height: 85px !important;
+}
+
+.page-desc-content .cate_links {
+    display: none;
+}
+
 /* BARRE DE MENU SIDEBAR */
 .navig {
     display: grid;
