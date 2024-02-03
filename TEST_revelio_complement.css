@@ -3028,6 +3028,24 @@ padding: 25px;
     display: none;
 }
 
+.page-desc-content .fo-img {
+    position: relative;
+    float: right;
+    width: 85px;
+    height: 85px;
+    background: none;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.page-desc-content .fo-img img,
+.page-desc-content .fo-img::after {
+    width: 85px;
+    height: 85px;
+    top: 0;
+    left: 0;
+}
+
 /* BARRE DE MENU SIDEBAR */
 .navig {
     display: grid;
