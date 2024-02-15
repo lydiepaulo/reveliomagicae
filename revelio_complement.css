@@ -50,7 +50,7 @@
 /*** INDEX & PAGE D'ACCUEIL -------------- ***/
 
 hdr-tour .tooltip {
-    color: white;
+    color: white !important;
 }
 
 .hdr-tour .tooltip:hover .toolcnt {
