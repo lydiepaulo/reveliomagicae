@@ -49,6 +49,17 @@
 /*** ------------------------------- ***/
 /*** INDEX & PAGE D'ACCUEIL -------------- ***/
 
+hdr-tour .tooltip {
+    color: white;
+}
+
+.hdr-tour .tooltip:hover .toolcnt {
+    width: fit-content;
+    padding: 0 5px;
+    font-size: 11px;
+    text-transform: lowercase !important;
+}
+
 .pa-grid {
     width: 100%;
     display: grid;
