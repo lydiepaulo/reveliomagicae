@@ -3050,6 +3050,7 @@ padding: 25px;
 
 /* DESCRIPTION DANS LES FO ET SOUS-FORUMS */
 #page-desc {
+    min-height: 124px;
     margin-bottom: 20px !important;
 }
 
