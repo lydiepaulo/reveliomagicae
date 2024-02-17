@@ -177,7 +177,11 @@
 
 /* NEWS */
 #newsareal1 .topictitle {
-    width: 210px;
+    width: 195px;
+}
+
+.topicslist_infos img {
+    margin-right: 3px;
 }
 
 .news_block,#newsareal1 .topicslist_infos {
@@ -190,8 +194,17 @@
 
 .news_block:last-child,#newsareal1 .topicslist_infos:last-child { margin-bottom: 0 }
 
+#newsareal1 .topicslist_infos {
+    white-space: nowrap;
+}
+
 #newsareal1 .topicslist_infos::before {
     background: none;
+}
+
+.news_block {
+    background: var(--neutral);
+    padding: 10px;
 }
 
 /* POINTS COVENS */
