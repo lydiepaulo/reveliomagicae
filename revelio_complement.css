@@ -3346,9 +3346,8 @@ opt span:first-of-type {
 	background: var(--neutral);
 	border-radius: 0 0 var(--radius) var(--radius);
 }
-.monevenement.active {
-	flex: 0 0 100%;
-	left: 0;
+.monevenement.cache {
+    display: none;
 }
 annee {
 	display: block;
