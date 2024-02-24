@@ -3356,7 +3356,8 @@ annee {
 	font-style: italic;
 	letter-spacing: -5px;
 	margin: -20px 0 -28px;
-	color: var(--base-1);
+	color: var(--co-3);
+	opacity: .5;
 }
 card {
 	position: relative;
