@@ -3318,7 +3318,7 @@ opt span:first-of-type {
 .madate {
 	position: relative;
 	cursor: pointer;
-	padding: 0 10px 5px 5px;
+	padding: 0 8px 5px 5px;
 	font-family: var(--font-4);
 	color: var(--contrast);
 }
