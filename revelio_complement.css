@@ -3212,6 +3212,10 @@ jr>* { flex-shrink: 0; }
 	font-size: 40px;
 	color: var(--contrast);
 }
+.fiche2 .entete .desc {
+    font-size: var(--small-size);
+    line-height: var(--little-size);
+}
 .fiche2 .entete img {
 	width: 75px;
 	height: 75px;
