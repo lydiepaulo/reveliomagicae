@@ -783,7 +783,7 @@ progress[value]::-webkit-progress-value {
 
 /*** INFOBULLES ***/ /* Tooltip container */
 .tooltip {
-	color: var(--contrast);
+	color: white;
 	position: relative;
 	display: inline-block;
 } /* Tooltip text */
