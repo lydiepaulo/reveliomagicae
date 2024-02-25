@@ -56,7 +56,7 @@
 .hdr-tour .tooltip:hover .toolcnt {
     width: fit-content;
     padding: 0 5px;
-    font-size: 11px;
+    font-size: 11px !important;
     text-transform: lowercase !important;
 }
 
@@ -795,6 +795,8 @@ progress[value]::-webkit-progress-value {
 	right: -100px;
 	margin: 0 auto;
 	background-color: var(--base-3);
+	color: white;
+        font-size: var(--normal-size);
 	padding: 5px;
 	border-radius: var(--xs-radius);
 	z-index: 1;
@@ -3210,6 +3212,10 @@ jr>* { flex-shrink: 0; }
 	font-size: 40px;
 	color: var(--contrast);
 }
+.fiche2 .entete .desc {
+    font-size: var(--small-size);
+    line-height: var(--little-size);
+}
 .fiche2 .entete img {
 	width: 75px;
 	height: 75px;
@@ -3285,6 +3291,7 @@ nuancier:nth-of-type(3) {
 	gap: 5px;
 }
 opt {
+	color: var(--contrast) !important;
 	display: block !important;
 	text-align: center;
 	padding: 5px;
@@ -3309,9 +3316,10 @@ opt span:first-of-type {
 	height: 0;
 }
 .madate {
+	white-space: nowrap;
 	position: relative;
 	cursor: pointer;
-	padding: 0 10px 5px 5px;
+	padding: 0 8px 5px 5px;
 	font-family: var(--font-4);
 	color: var(--contrast);
 }
