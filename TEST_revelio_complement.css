@@ -1544,7 +1544,7 @@ h1.qeel_title i {
     font-size: var(--xl-size);
     line-height: var(--xl-size);
     font-weight: 600;
-    color: var(--contrast);
+    color: black;
 }
 
 .queel {
